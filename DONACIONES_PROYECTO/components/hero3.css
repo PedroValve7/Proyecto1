@@ -1,0 +1,139 @@
+.hero3-header9 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  flex-direction: column;
+}
+.hero3-container {
+  width: auto;
+  height: 264px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero3-image {
+  width: 1277px;
+  height: 266px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+.hero3-content {
+  height: 408px;
+  display: flex;
+  align-self: flex-start;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.hero3-max-width {
+  align-self: center;
+  align-items: center;
+}
+.hero3-column {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero3-text {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.hero3-column1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: auto;
+  height: 156px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero3-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero3-button {
+  text-decoration: none;
+}
+.hero3-button1 {
+  animation-name: bounce;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.hero3-text3 {
+  text-decoration: none;
+}
+.hero3-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 115px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero3-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 115px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero3-image1 {
+  width: 670px;
+  height: 152px;
+  align-self: flex-start;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+.hero3-image2 {
+  width: 605px;
+  height: 155px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+@media(max-width: 991px) {
+  .hero3-column {
+    width: 100%;
+  }
+  .hero3-column1 {
+    width: auto;
+  }
+}
+@media(max-width: 767px) {
+  .hero3-text {
+    text-align: center;
+  }
+  .hero3-text1 {
+    text-align: center;
+  }
+  .hero3-actions {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .hero3-actions {
+    flex-direction: column;
+  }
+  .hero3-button {
+    width: 100%;
+  }
+  .hero3-button1 {
+    width: 100%;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
